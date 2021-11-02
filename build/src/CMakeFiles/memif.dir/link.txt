@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libmemif.so -o ../lib/libmemif.so CMakeFiles/memif.dir/main.c.o CMakeFiles/memif.dir/socket.c.o  -Wl,-rpath,:::::::::::::: -lpthread 
